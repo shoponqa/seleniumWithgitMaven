@@ -8,6 +8,7 @@ public class loginTest extends Base {
     @Test
     public void firstTest()
     {
+        driver.manage().window().maximize();
         driver.findElement(By.name("q")).clear();
         driver.findElement(By.name("q")).sendKeys("corona");
         driver.findElement(By.name("btnK")).click();
