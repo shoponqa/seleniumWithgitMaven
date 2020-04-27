@@ -2,23 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="loginTest" duration-ms="18285" started-at="2020-04-27T00:10:57 EDT" finished-at="2020-04-27T00:11:15 EDT">
+  <suite name="loginTest" duration-ms="14838" started-at="2020-04-27T00:33:26 EDT" finished-at="2020-04-27T00:33:40 EDT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="18285" started-at="2020-04-27T00:10:57 EDT" finished-at="2020-04-27T00:11:15 EDT">
+    <test name="Command line test" duration-ms="14838" started-at="2020-04-27T00:33:26 EDT" finished-at="2020-04-27T00:33:40 EDT">
       <class name="loginTest">
-        <test-method status="PASS" signature="browserStartUp()[pri:0, instance:loginTest@4dfa3a9d]" name="browserStartUp" is-config="true" duration-ms="9812" started-at="2020-04-27T00:10:57 EDT" finished-at="2020-04-27T00:11:07 EDT">
+        <test-method status="PASS" signature="browserStartUp()[pri:0, instance:loginTest@146ba0ac]" name="browserStartUp" is-config="true" duration-ms="9810" started-at="2020-04-27T00:33:26 EDT" finished-at="2020-04-27T00:33:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStartUp -->
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:loginTest@4dfa3a9d]" name="firstTest" duration-ms="3438" started-at="2020-04-27T00:11:07 EDT" finished-at="2020-04-27T00:11:10 EDT">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:loginTest@146ba0ac]" name="firstTest" duration-ms="4930" started-at="2020-04-27T00:33:36 EDT" finished-at="2020-04-27T00:33:40 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:loginTest@4dfa3a9d]" name="browserTearDown" is-config="true" duration-ms="4950" started-at="2020-04-27T00:11:10 EDT" finished-at="2020-04-27T00:11:15 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserTearDown -->
       </class> <!-- loginTest -->
     </test> <!-- Command line test -->
   </suite> <!-- loginTest -->

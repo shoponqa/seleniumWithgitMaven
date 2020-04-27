@@ -9,8 +9,9 @@ public class loginTest extends Base {
     public void firstTest()
     {
         driver.findElement(By.name("q")).clear();
-        driver.findElement(By.name("q")).sendKeys("mizanur rahman");
+        driver.findElement(By.name("q")).sendKeys("corona");
         driver.findElement(By.name("btnK")).click();
+        driver.quit();
 
     }
 

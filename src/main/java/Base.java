@@ -16,12 +16,12 @@ public class Base {
 
             }
 
-            @AfterMethod
-            public void browserTearDown()
-            {
-            driver.close();
-            driver.quit();
-
-            }
+//            @AfterMethod
+//            public void browserTearDown()
+//            {
+//            driver.close();
+//            driver.quit();
+//
+//            }
 
             }
